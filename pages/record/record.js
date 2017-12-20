@@ -7,7 +7,12 @@ Page({
    */
   data: {
     money: null,
-    canSave: false
+    canSave: false,
+    detail: null,
+    item: {
+      money: '',
+      detail: ''
+    }
   },
   customerData: {
     detail: null,
@@ -18,6 +23,7 @@ Page({
   onShareAppMessage: function () {
   },
   onMoneyBlured(e) {
+    console.log('eee', e)
     let val = Number(e.detail.value)
     let money = null
     if (!isNaN(val)) {

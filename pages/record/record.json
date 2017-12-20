@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents": {
+    "datail": "../../components/cellDetail/datail"
+  }
+}
