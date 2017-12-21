@@ -1,3 +1,4 @@
 <!--record.wxml-->
+<!--https://rushb.cn/201612/ciwulzrjx00002hw1v6uzk68d/-->
 <import src="../../components/cellDetail/detail"/>
 <template is="detail" data="{{...item}}"/>
