@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "datail": "../../components/cellDetail/datail"
+    "billDetail": "../../components/billDetail/datail"
   }
 }
