@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/record/record"
+    "pages/record/record",
+    "pages/alter/alter"
   ],
   "window": {
     "backgroundTextStyle": "light",

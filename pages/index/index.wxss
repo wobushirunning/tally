@@ -60,8 +60,9 @@ page {
   flex-direction: row;
   align-items: center;
   position: relative;
+  z-index: 100;
   transition: all .25s ease;
-  -webkit-animation: all .25s ease;
+  /* -webkit-animation: all .25s ease; */
 }
 
 .tally-cell > .detail-text {
@@ -96,7 +97,7 @@ page {
   flex-direction: row-reverse;
   align-items: center;
   position: absolute;
-  z-index: -1;
+  z-index: 0;  
   top: 0;
 }
 

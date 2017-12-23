@@ -1,6 +1,6 @@
 import {
   loadAllRecord,
-  deleteRecordById 
+  delRecord
 } from '../../services/tallyService.js'
 
 //index.js
@@ -96,7 +96,7 @@ Page({
   },
   touchE: function (e) {
     if (e.changedTouches.length === 1) {
-      console.log(e)
+      // console.log(e)
       var endX = e.changedTouches[0].clientX
       var disX = this.data.startX - endX
       var btnWidth = this.data.btnWidth
@@ -111,4 +111,18 @@ Page({
       })
     }
   },
+  alterDetail: function (e) {
+    // console.log(e.currentTarget.dataset.index)
+    app.globalData.alterIndex = e.currentTarget.dataset.index
+    wx.navigateTo({
+      url: '../alter/alter',
+    })
+  },
+  delDetail: function(e) {
+    let delIndex = e.currentTarget.dataset.index
+    delRecord(delIndex, (res) => {
+      console.log(res)
+      this.fetchData()
+    })
+  }
 })

@@ -1,0 +1,2 @@
+<!--alter.wxml-->
+<billDetail id='editBill' money="{{oMoney}}" detail="{{oDetail}}" bind:saveRecord="_alterRecord"></billDetail>

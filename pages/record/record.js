@@ -1,8 +1,15 @@
+import { addNewRecord } from '../../services/tallyService.js'
 var app = getApp()
 
 Page({
   /**
-   * 页面的初始数据
+   * 保存记录
    */
-  data: {}
+  _saveRecord(data) {
+    let record = data.detail
+    addNewRecord(record, (res) => {
+      console.log(res)
+      wx.navigateBack({})
+    })
+  }
 })
