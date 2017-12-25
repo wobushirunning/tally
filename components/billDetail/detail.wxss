@@ -37,6 +37,6 @@ page {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff0;
+  background-color: #04BFBF;
   border-radius: 0;
 }

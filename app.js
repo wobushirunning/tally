@@ -14,6 +14,7 @@ App({
     } else {
       //调用登录接口
       wx.getUserInfo({
+        // 是否带上登录态信息
         withCredentials: false,
         success: function(res) {
           that.globalData.userInfo = res.userInfo

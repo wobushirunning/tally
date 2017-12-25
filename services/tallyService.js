@@ -2,9 +2,9 @@ var app = getApp()
 var records = [
   {
     'id': 0,
-    'money': '2000.00',
-    'detail': '买书100、买电脑1900',
-    'time': '2017/08/31 16:50:55'
+    'money': '5600.00',
+    'detail': '买书100、买电脑5500',
+    'time': '2017/12/23 16:50:55'
   }
 ]
 import {formatTime} from '../utils/util.js'

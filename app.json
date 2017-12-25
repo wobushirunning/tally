@@ -5,8 +5,7 @@
     "pages/alter/alter"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ff0",
+    "navigationBarBackgroundColor": "#04BFBF",
     "navigationBarTitleText": "记账手札",
     "navigationBarTextStyle": "black"
   }
