@@ -17,7 +17,6 @@ Component({
   
   // 生命周期函数，可以为函数，或在一个methods段中定义的方法名
   ready: function(){
-    // console.log('11111')
     // console.log(this.data.money, this.data.detail)
     this.setData({
       canSave: this.data.money && this.data.detail
